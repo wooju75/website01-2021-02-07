@@ -1,0 +1,36 @@
+.about {
+  padding: 86px 0;
+  text-align: center;
+}
+
+.about h2 {
+  letter-spacing: 3px;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.about__container {
+  display: flex;
+  justify-content: center;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.about__item {
+  margin-top: 3rem;
+  padding: 10px;
+}
+
+.about__feature li i {
+  font-size: 66px;
+}
+
+.about__feature li:nth-child(2) {
+  line-height: 4rem;
+  font-size: 20px;
+}
+
+.about__feature li:nth-child(3) {
+  line-height: 1.65rem;
+  font-size: 16px;
+}

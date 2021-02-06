@@ -1,0 +1,30 @@
+.footer {
+  background-color: #222222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 90px 0;
+}
+
+.footer__topbtn {
+  background-color: white;
+  cursor: pointer;
+  padding: 8px 16px;
+  font-size: 22px;
+}
+
+.footer__social-link {
+  display: flex;
+  font-size: 26px;
+  padding: 30px 0;
+}
+
+.footer__icons i {
+  color: white;
+  padding: 0 4px;
+}
+
+.footer__copyright {
+  color: white;
+}

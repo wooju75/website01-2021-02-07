@@ -1,0 +1,23 @@
+.header {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.2);
+  z-index: 100;
+}
+
+.header h1 {
+  padding: 16px;
+}
+
+.header__nav {
+  display: flex;
+}
+
+.header__nav-item {
+  padding: 16px;
+  cursor: pointer;
+}
