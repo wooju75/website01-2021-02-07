@@ -2,10 +2,12 @@
 @import "reset.css";
 
 /* Components */
-@import "../css/components/header.css";
-@import "../css/components/main.css";
-@import "../css/components/footer.css";
-@import "../css/components/about.css";
+@import "components/header.css";
+@import "components/main.css";
+@import "components/footer.css";
+@import "components/about.css";
+@import "components/design.css";
+@import "components/team.css";
 
 body {
   font-family: "Raleway", sans-serif;
@@ -13,6 +15,7 @@ body {
 
 h2 {
   font-size: 30px;
+  font-weight: 300;
 }
 
 h4 {

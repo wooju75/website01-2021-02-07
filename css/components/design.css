@@ -1,0 +1,38 @@
+.design {
+  background-color: #eeeeee;
+  padding: 5rem 0;
+  display: flex;
+}
+
+.design__text {
+  width: 50%;
+  padding: 6rem;
+}
+
+.design__text h2 {
+  margin-bottom: 50px;
+  font-weight: 300;
+  letter-spacing: 3px;
+}
+
+.design__text h4 {
+  line-height: 24px;
+  margin-bottom: 26px;
+  font-size: 16px;
+}
+
+.design__image {
+  width: 40%;
+  margin: 6rem;
+}
+
+.design__image img {
+  border-radius: 8px;
+}
+
+.design__view {
+  background-color: #000;
+  color: white;
+  padding: 10px 16px;
+  cursor: pointer;
+}

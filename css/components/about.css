@@ -26,11 +26,11 @@
 }
 
 .about__feature li:nth-child(2) {
-  line-height: 4rem;
+  line-height: 5rem;
   font-size: 20px;
 }
 
 .about__feature li:nth-child(3) {
-  line-height: 1.65rem;
+  line-height: 1.8rem;
   font-size: 16px;
 }
