@@ -1,9 +1,61 @@
 .team {
   padding: 86px 0;
-  text-align: center;
 }
 
 .team h2 {
+  text-align: center;
   margin-bottom: 1rem;
   letter-spacing: 3px;
+}
+
+.team h4 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.team__container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+}
+
+.team__item {
+  width: 24%;
+  margin: 6px;
+  box-shadow: 0px 0px 5px 2px rgb(209, 209, 209);
+}
+
+.team__item:hover {
+  box-shadow: 0px 0px 28px 10px rgb(184, 184, 184);
+}
+
+.team__photo img {
+  max-width: 100%; /* 부모크기 영향 받아서 크기조정됨 */
+}
+
+.team__name {
+  font-size: 28px;
+  padding: 1rem;
+}
+
+.team__work {
+  font-size: 20px;
+  font-weight: 300;
+  padding: 1rem;
+}
+
+.team__intro {
+  padding: 1rem;
+  line-height: 30px;
+}
+
+.team__btn {
+  text-align: center;
+  padding: 1rem;
+}
+
+.team__btn button {
+  width: 100%;
+  padding: 6px 0;
+  cursor: pointer;
 }
