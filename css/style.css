@@ -8,6 +8,9 @@
 @import "components/about.css";
 @import "components/design.css";
 @import "components/team.css";
+@import "components/partner.css";
+@import "components/work.css";
+@import "components/price.css";
 
 body {
   font-family: "Raleway", sans-serif;
@@ -21,6 +24,10 @@ h2 {
 h4 {
   font-size: 18px;
   font-weight: 300;
+}
+
+h5 {
+  margin: 0;
 }
 
 ::selection {
