@@ -1,0 +1,17 @@
+.partner {
+  background-color: #555555;
+  display: flex;
+  justify-content: center;
+}
+
+.partner__item {
+  width: 23%;
+  text-align: center;
+  color: white;
+  padding: 60px;
+}
+
+.partner__item li:first-child {
+  font-size: 34px;
+  margin-bottom: 10px;
+}

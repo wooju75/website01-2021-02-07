@@ -1,0 +1,33 @@
+.work {
+  padding: 86px 0;
+}
+
+.work h2,
+.work h4 {
+  text-align: center;
+}
+
+.work h2 {
+  margin-bottom: 1rem;
+  letter-spacing: 3px;
+}
+
+.work h4 {
+  margin-bottom: 60px;
+}
+
+.work__masonry {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.work__container {
+  display: flex;
+}
+
+.work__item {
+  overflow: hidden;
+  width: 24%;
+  height: 192px;
+  margin: 6px;
+}
