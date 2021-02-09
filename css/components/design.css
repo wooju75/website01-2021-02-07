@@ -30,9 +30,14 @@
   border-radius: 8px;
 }
 
-.design__view {
+.design__btn {
   background-color: #000;
   color: white;
   padding: 10px 16px;
   cursor: pointer;
+}
+
+.design__btn:hover {
+  background-color: #cccccc;
+  color: #000000;
 }
