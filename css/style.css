@@ -11,6 +11,7 @@
 @import "components/partner.css";
 @import "components/work.css";
 @import "components/price.css";
+@import "components/contact.css";
 
 body {
   font-family: "Raleway", sans-serif;
