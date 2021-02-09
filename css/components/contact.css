@@ -1,0 +1,61 @@
+.contact {
+  padding: 5rem 0;
+  background-color: #f1f1f1;
+}
+
+.contact h2,
+.contact h4 {
+  text-align: center;
+}
+
+.contact h2 {
+  letter-spacing: 3px;
+  margin-bottom: 1rem;
+}
+
+.contact h4 {
+  margin-bottom: 60px;
+}
+
+.contact__container {
+  display: flex;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.contact__info,
+.contact__container form {
+  width: 50%;
+}
+
+.contact__container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__container form input {
+  padding: 10px;
+  margin-bottom: 22px;
+}
+
+.contact__container form button {
+  background-color: #111111;
+  color: white;
+  padding: 8px;
+  width: 174px;
+  cursor: pointer;
+}
+
+.contact__container form button:hover {
+  background-color: #cccccc;
+  color: #000000;
+}
+
+.contact__info-item {
+  padding: 14px;
+}
+
+.contact__info-item span {
+  font-size: 26px;
+  margin-right: 34px;
+}
