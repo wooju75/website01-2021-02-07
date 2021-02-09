@@ -31,3 +31,11 @@
   height: 192px;
   margin: 6px;
 }
+
+.work__item img {
+  transition: transform 0.5s ease-in-out;
+}
+
+.work__item img:hover {
+  transform: scale(1.2);
+}
