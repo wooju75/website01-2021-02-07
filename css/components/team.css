@@ -29,8 +29,17 @@
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 }
 
+.team__photo {
+  overflow: hidden;
+}
+
 .team__photo img {
   max-width: 100%; /* 부모크기 영향 받아서 크기조정됨 */
+  transition: transform 0.5s ease-in-out;
+}
+
+.team__photo img:hover {
+  transform: scale(1.2);
 }
 
 .team__name {
@@ -58,4 +67,8 @@
   width: 100%;
   padding: 6px 0;
   cursor: pointer;
+}
+
+.team__btn button:hover {
+  background-color: #cccccc;
 }
